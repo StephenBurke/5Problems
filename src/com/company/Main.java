@@ -4,6 +4,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        //create and fill array
         int[] arr1;
         arr1 = new int[10];
         int i = 0;
@@ -15,27 +16,13 @@ public class Main {
 
         System.out.println(forAdd(arr1));
     }
-    public static int forAdd(int[] arr2){
-        private this.arr2;
-        private int sum = 0;
+    private static int forAdd(int[] arr2){
+
+        int sum = 0;
         for (int anArr1 : arr2) {
             sum+=anArr1;
         }
         return sum;
     }
-    public static int whileAdd(int[] arr2){
-        private this.arr2;
-        private int sum;
-        int i =0
-        while(i<arr2.length){
-            sum+=arr2[i];
-            i++;
-        }
-        return sum;
-    }
-    public static int recurrsionAdd(int[]arr2){
-        private this.arr2;
-        private 
 
-    }
 }
