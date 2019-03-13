@@ -13,17 +13,18 @@
     <session id="123596014">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="392" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="JAVA" value="427" />
+          <entry key="PLAIN_TEXT" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="23">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -67,7 +68,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="579" />
     <option name="width" value="794" />
     <option name="height" value="735" />
@@ -76,37 +77,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="5Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5Problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="5Problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="5Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552496701817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552512073324" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,6 +127,7 @@
       <workItem from="1552054421048" duration="614000" />
       <workItem from="1552416030990" duration="537000" />
       <workItem from="1552498255688" duration="633000" />
+      <workItem from="1552511791893" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary=" for loop to add ints in an array">
       <created>1551987400963</created>
@@ -166,14 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552496717994</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made methods static">
+      <created>1552512106627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552512106627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2973000" />
+    <option name="totallyTimeSpent" value="3500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="579" y="0" width="794" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22888283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -214,13 +198,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" for loop to add ints in an array" />
     <MESSAGE value="starting overish" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting overish" />
+    <MESSAGE value="made methods static" />
+    <option name="LAST_COMMIT_MESSAGE" value="made methods static" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="23">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
