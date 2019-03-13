@@ -12,20 +12,22 @@ public class Main {
         int sum1 = whileSumOfArray(a);
         int sum2 = forSumOfArray(a);
 
-        System.out.println("The three sums are" + sum0 + sum1 + sum2);
+        System.out.println("The three sums are " + sum0 + " " + sum1 + " " + sum2);
 
     }
 
     //recursive recursiveSumOfArray
-    public int recursiveSumOfArray(int[] a, int n) {
+    private static int recursiveSumOfArray(int[] a, int n) {
         if (n == 0)
             return a[n];
         else
             return a[n] + recursiveSumOfArray(a, n-1);
     }
 
+
+
     //while loop sum the array
-    public int whileSumOfArray(int [] a){
+    private static int whileSumOfArray(int [] a){
         int sum =0;
         int n =0;
         while(n<a.length){
@@ -36,7 +38,7 @@ public class Main {
     }
     
     // for loop forSumOfArray 
-    public int forSumOfArray(int[] arr2){
+    private static int forSumOfArray(int[] arr2){
         int sum = 0;
         for (int anArr1 : arr2) {
             sum+=anArr1;
