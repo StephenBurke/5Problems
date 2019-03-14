@@ -3,21 +3,21 @@
 
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-        char [] arr0 = {"a","b", "c"}
-        int [] arr1 = {1,2,3}
+        String [] arr0 = {"a","b","c"};
+        String [] arr1 = {"1","2","3"};
         
-        System.out.println(s);
+        System.out.println(Arrays.toString(shuffle(arr0, arr1)));
     }
 
-    private static int[] shuffle(char[]c, int[]n) {
+    private static String[] shuffle(String[]c, String[]n) {
         String[] s = new String[c.length + n.length];
-        int a=0;
-        int b=0;
-        int i=0;
-        for(i in c.length){
+        int i;
+        for(i=0;i<c.length;i++){
             s[i]=c[i];
             s[i+1]=n[i];
             i++;
